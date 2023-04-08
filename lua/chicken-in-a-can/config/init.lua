@@ -1,5 +1,5 @@
-require('samminhch.config.settings')
-require('samminhch.config.bindings')
+require('chicken-in-a-can.config.settings')
+require('chicken-in-a-can.config.bindings')
 
 -- bootstrap Lazy.nvim
 local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
@@ -18,10 +18,10 @@ vim.opt.rtp:prepend(lazypath)
 -- set up all my plugins
 require('lazy').setup({
     spec = {
-        {import = 'samminhch.plugins'}
+        {import = 'chicken-in-a-can.plugins'}
     },
     install = {
-        colorscheme = { 'everforest' },
+        colorscheme = { 'onedark' },
     },
 })
 

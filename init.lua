@@ -6,8 +6,8 @@
 -- ╚═╝╚═╝  ╚══╝╚═╝   ╚═╝   ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝
 -------------------------------------------------------
 -- @author Minh Nguyen
--- @github https://github.com/samminhch
+-- @github https://github.com/chicken-in-a-can
 -------------------------------------------------------
 -------------------------------------------------------
 
-require("samminhch.config")
+require("chicken-in-a-can.config")

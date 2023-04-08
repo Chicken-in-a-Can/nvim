@@ -44,7 +44,7 @@ return {
 
 
         -- Keymaps (It won't let me do it in the keymaps spec for some reason... bummer!)
-        local map = require('samminhch.utils').map
+        local map = require('chicken-in-a-can.utils').map
 
         local opts = { silent = true, noremap = true, expr = true, replace_keycodes = false }
         -- Move between suggestions
