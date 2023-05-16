@@ -6,5 +6,5 @@ return {
     config = function()
         -- load the colorscheme
         vim.cmd.colorscheme('onedark')
-    end
+   end
 }
